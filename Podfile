@@ -4,14 +4,17 @@ workspace 'UserDemo.xcworkspace'
 platform :ios, '8.0'
 use_frameworks!
 
+def share_pods
+    pod 'SnapKit'
+end
+
 target 'UserDemo' do
  project 'UserDemo.xcodeproj'
- pod 'SnapKit'
- 
+ share_pods
 end
 
 target 'Test' do
   project 'Example/Test.xcodeproj'
-  pod 'SnapKit'
   pod 'UserDemo'
+  share_pods
 end

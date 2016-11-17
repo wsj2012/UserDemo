@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		441CD4CF1DDC00660009C53E /* UserDemo.h in Headers */ = {isa = PBXBuildFile; fileRef = 441CD4CD1DDC00660009C53E /* UserDemo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		441CD51C1DDC073B0009C53E /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441CD51B1DDC073B0009C53E /* RootViewController.swift */; };
 		441CD5331DDC759B0009C53E /* UserDemo.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 441CD5321DDC759B0009C53E /* UserDemo.podspec */; };
 		69C655978B83AA9B6E71B33B /* Pods_UserDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF163431FD256AAABB5C3812 /* Pods_UserDemo.framework */; };
@@ -15,10 +14,9 @@
 
 /* Begin PBXFileReference section */
 		441CD4CA1DDC00660009C53E /* UserDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UserDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		441CD4CD1DDC00660009C53E /* UserDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserDemo.h; sourceTree = "<group>"; };
 		441CD4CE1DDC00660009C53E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		441CD51B1DDC073B0009C53E /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
-		441CD5321DDC759B0009C53E /* UserDemo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; fileEncoding = 4; path = UserDemo.podspec; sourceTree = "<group>"; };
+		441CD5321DDC759B0009C53E /* UserDemo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; fileEncoding = 4; path = UserDemo.podspec; sourceTree = SOURCE_ROOT; };
 		5453BC82B6BF601514E65C2F /* Pods-UserDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UserDemo/Pods-UserDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		931F478015B83710A380C41A /* Pods-UserDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-UserDemo/Pods-UserDemo.release.xcconfig"; sourceTree = "<group>"; };
 		AF163431FD256AAABB5C3812 /* Pods_UserDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UserDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,7 +54,7 @@
 		441CD4C01DDC00660009C53E = {
 			isa = PBXGroup;
 			children = (
-				441CD5321DDC759B0009C53E /* UserDemo.podspec */,
+				441CD5341DDD3A110009C53E /* Supporting Files */,
 				441CD4CC1DDC00660009C53E /* UserDemo */,
 				441CD4CB1DDC00660009C53E /* Products */,
 				2A592B46D43B3C1F7770F549 /* Pods */,
@@ -75,10 +73,18 @@
 		441CD4CC1DDC00660009C53E /* UserDemo */ = {
 			isa = PBXGroup;
 			children = (
-				441CD4CD1DDC00660009C53E /* UserDemo.h */,
-				441CD4CE1DDC00660009C53E /* Info.plist */,
 				441CD51B1DDC073B0009C53E /* RootViewController.swift */,
 			);
+			path = UserDemo;
+			sourceTree = "<group>";
+		};
+		441CD5341DDD3A110009C53E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				441CD5321DDC759B0009C53E /* UserDemo.podspec */,
+				441CD4CE1DDC00660009C53E /* Info.plist */,
+			);
+			name = "Supporting Files";
 			path = UserDemo;
 			sourceTree = "<group>";
 		};
@@ -89,7 +95,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				441CD4CF1DDC00660009C53E /* UserDemo.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

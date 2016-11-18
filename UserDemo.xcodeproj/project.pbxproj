@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		441CD51C1DDC073B0009C53E /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441CD51B1DDC073B0009C53E /* RootViewController.swift */; };
 		441CD5331DDC759B0009C53E /* UserDemo.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 441CD5321DDC759B0009C53E /* UserDemo.podspec */; };
+		441CD53D1DDE8F2F0009C53E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 441CD53C1DDE8F2F0009C53E /* LICENSE */; };
 		69C655978B83AA9B6E71B33B /* Pods_UserDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF163431FD256AAABB5C3812 /* Pods_UserDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -17,6 +18,7 @@
 		441CD4CE1DDC00660009C53E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		441CD51B1DDC073B0009C53E /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		441CD5321DDC759B0009C53E /* UserDemo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; fileEncoding = 4; path = UserDemo.podspec; sourceTree = SOURCE_ROOT; };
+		441CD53C1DDE8F2F0009C53E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 		5453BC82B6BF601514E65C2F /* Pods-UserDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UserDemo/Pods-UserDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		931F478015B83710A380C41A /* Pods-UserDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-UserDemo/Pods-UserDemo.release.xcconfig"; sourceTree = "<group>"; };
 		AF163431FD256AAABB5C3812 /* Pods_UserDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UserDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,6 +83,7 @@
 		441CD5341DDD3A110009C53E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				441CD53C1DDE8F2F0009C53E /* LICENSE */,
 				441CD5321DDC759B0009C53E /* UserDemo.podspec */,
 				441CD4CE1DDC00660009C53E /* Info.plist */,
 			);
@@ -162,6 +165,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				441CD53D1DDE8F2F0009C53E /* LICENSE in Resources */,
 				441CD5331DDC759B0009C53E /* UserDemo.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

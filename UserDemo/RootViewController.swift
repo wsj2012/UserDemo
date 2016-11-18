@@ -24,5 +24,7 @@ public final class RootViewController: UIViewController {
             make.leadingMargin.equalTo(50)
             make.height.equalTo(48)
         }
+        
+        print("hello world")
     }
 }

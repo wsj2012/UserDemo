@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name        = 'UserDemo'
-    s.version     = '0.1.0'
+    s.version     = '0.1.1'
     s.summary     = 'Demo.'
     s.homepage    = 'https://github.com/wsj2012/UserDemo'
     s.license     = 'COMMERCIAL'

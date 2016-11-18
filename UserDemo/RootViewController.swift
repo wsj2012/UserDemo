@@ -26,5 +26,17 @@ public final class RootViewController: UIViewController {
         }
         
         print("hello world")
+        
+        let button2 = UIButton(type: .system)
+        button2.backgroundColor = .orange
+        button2.tintColor = .white
+        button2.setTitle("hello, world~", for: .normal)
+        view.addSubview(button2)
+        button2.snp.makeConstraints { (make) in
+            make.top.equalTo(button.snp.bottom).offset(20)
+            make.leadingMargin.equalTo(50)
+            make.height.equalTo(48)
+        }
+
     }
 }

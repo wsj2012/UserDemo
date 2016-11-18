@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
     s.summary     = 'Demo.'
     s.homepage    = 'https://github.com/wsj2012/UserDemo'
     s.license     = 'COMMERCIAL'
-    s.authors     = { 'kiri' => 'dengqiang740@pingan.com.cn' }
+    s.authors     = { 'wsj2012' => 'time_now@yeah.net' }
     s.source      = { :git => 'https://github.com/wsj2012/UserDemo.git', :tag => s.version }
     
     s.ios.deployment_target   = '8.0'
